@@ -128,7 +128,7 @@ export default function App() {
               <div className="w-full bg-gray-100 rounded-full h-3">
                 <div
                   className="bg-emerald-500 h-3 rounded-full transition-all duration-500"
-                  style={{ width: habits.length > 0 ? `${(completedCount / habits.length) * 100}%` : '0%' }}
+                  style={{ width: `${(completedCount / habits.length) * 100}%` }}
                 />
               </div>
             </div>
